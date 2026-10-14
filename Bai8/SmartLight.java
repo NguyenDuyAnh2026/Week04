@@ -13,5 +13,7 @@ public class SmartLight extends Device implements  Adjustable{
     public void decrease(){
         brightness = Math.max(0, brightness - 10);
     }
-
+    public int getBrightness(){
+        return brightness;
+    }
 }
